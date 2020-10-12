@@ -1,0 +1,23 @@
+.header {
+
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    &__logo {
+        width: 7%;
+        height: 7%;
+    }
+    
+    &__ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    &__li {
+        list-style: none;
+    }
+    }
+    
+    
