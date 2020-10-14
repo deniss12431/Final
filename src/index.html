@@ -4,32 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My personal project</title>
-
-    <link rel="stylesheet" type="text/css" href="libs/bootstrap-4.5.3/scss/bootstrap.scss" />
     <link rel="stylesheet" href="/src/style.scss" />
   </head>
 
   <body>
-    <header>
-      <img class="header__logo" src="/src/assets/images/Icon_KKMG.png" alt="Logo" />
+    <header class="header__main">
+      <div class="header__logo">
+        <img  src="./assets/images/logo.svg" alt="" />
+      </div>
       <div class="header__menu">
-        <ul class="header__ul">
+        <!-- <ul class="header__ul">
           <li class="header__li"><a href="#">Методологія</a></li>
           <li class="header__li"><a href="#">Програми</a></li>
           <li class="header__li"><a href="#">Результат</a></li>
+        </ul> -->
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Методологія</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Програми</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Результат</a>
+          </li>
         </ul>
-        <!-- <button href="#">Стань програмістом</button> -->
-        <button type="button" class="btn btn-dark">Стань програмістом</button>
+        <button type="button" class="btn btn-dark header__button">Стань програмістом</button>
       </div>
     </header>
 
-    <!-- <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"
-    ></script> -->
-
-    <!-- <script src="libs/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script> -->
     <script src="/src/main.ts"></script>
   </body>
 </html>
