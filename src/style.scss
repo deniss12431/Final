@@ -1,3 +1,8 @@
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .header {
 
     &__menu {
@@ -11,13 +16,11 @@
     }
     
     &__ul {
-        display: flex;
-        flex-wrap: wrap;
+        @include flex()
     }
     
     &__li {
         list-style: none;
     }
     }
-    
     
